@@ -1,12 +1,5 @@
 
-#include <linux/shm.h>
-#include <fcntl.h>
-#define SHM_HUGETLB    04000
 
-#include <stdio.h>
-#include <linux/ashmem.h>
-#include <sys/mman.h>
-#include <sys/ioctl.h>
 #include "android_shm.h"
 
 #define ASHMEM_DEVICE	"/dev/ashmem"

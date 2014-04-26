@@ -17,7 +17,14 @@
 
 #ifndef _SYS_SHM_H
 #define _SYS_SHM_H	1
+#include <linux/shm.h>
+#include <fcntl.h>
+#define SHM_HUGETLB    04000
 
+#include <stdio.h>
+#include <linux/ashmem.h>
+#include <sys/mman.h>
+#include <sys/ioctl.h>
 #include <stddef.h>
 
 /* Get common definition of System V style IPC.  */
