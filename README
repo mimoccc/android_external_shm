@@ -1,0 +1,5 @@
+Android SHM
+===========
+
+This little library implements the sysv shared memory functions using
+Android ashmem device. 
